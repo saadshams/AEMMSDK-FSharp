@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Content\Article.fs" />
+    <Compile Include="Content\Collection.fs" />
+    <Compile Include="JSON.fs" />
+    <Compile Include="Schema\Collection.fs" />
+    <Compile Include="Schema\Error.fs" />
+    <Compile Include="Schema\List.fs" />
+    <Compile Include="Schema\Article.fs" />
+    <Compile Include="Schema\Client.fs" />
+    <Compile Include="Schema\Query.fs" />
+    <Compile Include="Schema\Token.fs" />
+    <Compile Include="Authentication.fs" />
+    <Compile Include="Content\Entity.fs" />
+    <Compile Include="Schema\AsyncResult.fs" />
+  </ItemGroup>
+</Project>
